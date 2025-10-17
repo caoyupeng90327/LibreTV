@@ -270,13 +270,109 @@ const API_SITES = {
     zaikang: { name : '宅看影视',api:'http://zhaikanys.xyz/api.php/provide/vod',},
     changshiys: { name : '畅视影视',api:'http://app.reboju.net/api.php/provide/vod',},
     beidouxing: { name : '北斗星资源',api:'https://api.bdxzyapi.com/api.php/provide/vod/at/xml',},
-    zy1886: { name : '1886资源',api:'http://cj.1886zy.co/inc/seacmsapi.php',},
+    zy1886aa: { name : '1886资源',api:'http://cj.1886zy.co/inc/seacmsapi.php',},
     zy605: { name : '605资源',api:'http://www.605zy.co/inc/api.php',},
     bjzy: { name : '八戒资源',api:'http://cj.bajiecaiji.com/inc/seacmsapi.php',},
     qwyinshi: { name : '全网影视',api:'https://www.qwysvip.com/api.php/provide/vod/at/xml',},
     sfjhybapp: { name : '三方聚合云播APP',api:'http://bxin.tv/api.php/provide/vod',},
     lgapp: { name : '蓝果APP',api:'http://www.languotv.com/api.php/provide/vod',},
-    ayzjapp: { name : '阿姨追剧APP',api:'http://app.yiciyuan.me/api.php/provide/vod',}
+    ayzjapp: { name : '阿姨追剧APP',api:'http://app.yiciyuan.me/api.php/provide/vod',},
+    okzy: {
+        api: 'http://cj.okzy.tv/inc/api.php',
+        name: 'OK 资源网'
+    },
+    zuidazy: {
+        api: 'http://www.zdziyuan.com/inc/api.php',
+        name: '最大资源网'
+    },
+    doubanzy: {
+        api: 'http://v.1988cj.com/inc/api.php',
+        name: '豆瓣电影资源'
+    },
+    zy135: {
+        api: 'http://cj.zycjw1.com/inc/api.php',
+        name: '135 资源网'
+    },
+    kuyunzy: {
+        api: 'http://caiji.kuyun98.com/inc/ldg_api.php',
+        name: '酷云资源'
+    },
+    mgtvzy: {
+        api: 'https://api.shijiapi.com/api.php/provide/vod/at/xml/',
+        name: '芒果 TV 资源网'
+    },
+    subo988: {
+        api: 'https://www.subo988.com/inc/api.php',
+        name: '速播资源站'
+    },
+    zy209: {
+        api: 'http://cj.1156zy.com/inc/api.php',
+        name: '209 资源'
+    },
+    zuixinzy2: {
+        api: 'http://api.zuixinapi.com/inc/api.php',
+        name: '最新资源'
+    },
+    kubozy: {
+        api: 'http://api.kbzyapi.com/inc/api.php',
+        name: '酷播资源'
+    },
+    yongjiuzy: {
+        api: 'http://cj.yongjiuzyw.com/inc/api.php',
+        name: '永久资源'
+    },
+    ku123: {
+        api: 'http://cj.123ku2.com:12315/inc/api.php',
+        name: '123 资源'
+    },
+    zy88: {
+        api: 'http://www.88zyw.net/inc/api.php',
+        name: '88 影视资源站'
+    },
+    wolongzy: {
+        api: 'http://cj.wlzy.tv/inc/api_mac.php',
+        name: '卧龙资源'
+    },
+    mahuazy: {
+        api: 'https://www.mhapi123.com/inc/api.php',
+        name: '麻花资源'
+    },
+    kkzy: {
+        api: 'https://api.kkzy.tv/inc/api.php',
+        name: '快快资源'
+    },
+    zy158: {
+        api: 'http://cj.158zyz.net:158/inc/api.php',
+        name: '壹伍捌资源网'
+    },
+    rrzy: {
+        api: 'https://www.rrzyw.cc/api.php/provide/vod/from/rrm3u8/at/xml/',
+        name: '人人资源'
+    },
+    mokazy: {
+        api: 'https://cj.heiyap.com/api.php/provide/vod/at/xml/',
+        name: '魔卡资源网'
+    },
+    kyzy: {
+        api: 'https://www.kyzy.tv/api.php/kyyun/vod/at/xml/',
+        name: '快影资源站'
+    },
+    solezy: {
+        api: 'https://www.caijizy.vip/api.php/provide/vod/at/xml/',
+        name: '搜乐资源网'
+    },
+    bbkdj: {
+        api: 'http://api.bbkdj.com/api',
+        name: '步步高顶尖资源网'
+    },
+    zy1886: {
+        api: 'http://cj.1886zy.co/inc/api.php',
+        name: '1886 资源'
+    },
+    mbo: {
+        api: 'http://caiji.mb77.vip/inc/api.php',
+        name: '秒播资源'
+    }
     // testSource: {
     //     api: 'https://www.example.com/api.php/provide/vod',
     //     name: '空内容测试源',
