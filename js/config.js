@@ -48,27 +48,27 @@ const API_SITES = {
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv', 
-    },
+    // heimuer: {
+    //     api: 'https://json.heimuer.xyz/api.php/provide/vod',
+    //     name: '黑木耳',
+    //     detail: 'https://heimuer.tv',
+    // },
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
     },
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: 'iqiyi资源',
-    },
+    // iqiyi: {
+    //     api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
+    //     name: 'iqiyi资源',
+    // },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
     }, 
-    hwba: {
-        api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源',
-    },
+    // hwba: {
+    //     api: 'https://cjhwba.com/api.php/provide/vod',
+    //     name: '华为吧资源',
+    // },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
         name: '极速资源',
@@ -90,10 +90,10 @@ const API_SITES = {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
     },
-    yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源'
-    },
+    // yinghua: {
+    //     api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
+    //     name: '樱花资源'
+    // },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度云资源'
@@ -114,18 +114,18 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    egy : {
-        name: '9e国语',
-        api: 'http://vod.9e03.com/lvdou_api.php/v1.vod'
-    },
-    mjf : {
-        name: '美剧范',
-        api:'http://ttzmz.net/api.php/v1.vod'
-    },
-    mjc : {
-        name: '美剧虫',
-        api:'https://meijuchong.com/api.php/v1.vod'
-    },
+    // egy : {
+    //     name: '9e国语',
+    //     api: 'http://vod.9e03.com/lvdou_api.php/v1.vod'
+    // },
+    // mjf : {
+    //     name: '美剧范',
+    //     api:'http://ttzmz.net/api.php/v1.vod'
+    // },
+    // mjc : {
+    //     name: '美剧虫',
+    //     api:'https://meijuchong.com/api.php/v1.vod'
+    // },
     ydyy : {
         name: '益达影院',
         api:'http://luobu.yss6080.com/mogai_api.php/v1.vod'
@@ -138,110 +138,145 @@ const API_SITES = {
         name: '渔渔影视',
         api:'http://luobo.yugenye.site/api.php/v1.vod'
     },
-    tzw : {
-        name: '兔子窝',
-        api:'http://cj.huimaojia.com:12345/mogai_api.php/v1.vod'
-    },
-    tpys : {
-        name: '躺平影视',
-        api:'http://www.lltpys.com/api.php/app/'
-    },
-    k365 :{
-        name: '看365',
-        api:'https://www.kan365.xyz/api.php/app/'
-    },
-    bc  : {
-        name: '北川',
-        api:'https://www.bcwzg.com/api.php/app/'
-    },
-    ztys : {
-        name: '钟特影视',
-        api:'https://app.zteys.com/api.php/v1.vod'
-    },
+    // tzw : {
+    //     name: '兔子窝',
+    //     api:'http://cj.huimaojia.com:12345/mogai_api.php/v1.vod'
+    // },
+    // tpys : {
+    //     name: '躺平影视',
+    //     api:'http://www.lltpys.com/api.php/app/'
+    // },
+    // k365 :{
+    //     name: '看365',
+    //     api:'https://www.kan365.xyz/api.php/app/'
+    // },
+    // bc  : {
+    //     name: '北川',
+    //     api:'https://www.bcwzg.com/api.php/app/'
+    // },
+    // ztys : {
+    //     name: '钟特影视',
+    //     api:'https://app.zteys.com/api.php/v1.vod'
+    // },
     tkv2 : {
         name: '天空V2',
         api:'https://www.tkys.tv/xgapp.php/v2/'
     },
-    sryy : {
-        name: '三日影院',
-        api:'https://www.3ri.net/api.php/v1.vod'
-    },
-    slyy : {
-        name: '双鹿影院',
-        api:'http://cr.slidc.top/mubai_api.php/m2.vod'
-    },
-    fxsj : {
-        name: '粉象视界',
-        api:'http://42.157.129.15:34444/lvdou_api.php/v1.vod'
-    },
-    lmys : {
-        name: '懒猫影视',
-        api:'https://lanmao.lanmaoymw.cn/api.php/v1.vod'
-    },
-    al : {
-        name: '阿里',
-        api:'http://aliys.cn:90/api.php/v1.vod'
-    },
-    qc : {
-        name: 'QC',
-        api:'https://www.qcsvip.com/mogai_api.php/v1.vod'
-    },
-    hh : {
-        name: '黄河',
-        api:'http://i.ledu8.cn/api.php/v1.vod'
-    },
-    jikusp :{
-        name: '极酷视频',
-        api:'https://jiku.vip/mogai_api.php/v1.vod'
-    },
-    juzi : {
-        name: '橘子',
-        api:'http://jz.juzidy.vip/mogai_api.php/v1.vod'
-    },
-    qifeizx : {
-        name: '奇飞专线',
-        api:'http://mkk.gotka.top/api.php/v1.vod'
-    },
+    // sryy : {
+    //     name: '三日影院',
+    //     api:'https://www.3ri.net/api.php/v1.vod'
+    // },
+    // slyy : {
+    //     name: '双鹿影院',
+    //     api:'http://cr.slidc.top/mubai_api.php/m2.vod'
+    // },
+    // fxsj : {
+    //     name: '粉象视界',
+    //     api:'http://42.157.129.15:34444/lvdou_api.php/v1.vod'
+    // },
+    // lmys : {
+    //     name: '懒猫影视',
+    //     api:'https://lanmao.lanmaoymw.cn/api.php/v1.vod'
+    // },
+    // al : {
+    //     name: '阿里',
+    //     api:'http://aliys.cn:90/api.php/v1.vod'
+    // },
+    // qc : {
+    //     name: 'QC',
+    //     api:'https://www.qcsvip.com/mogai_api.php/v1.vod'
+    // },
+    // hh : {
+    //     name: '黄河',
+    //     api:'http://i.ledu8.cn/api.php/v1.vod'
+    // },
+    // jikusp :{
+    //     name: '极酷视频',
+    //     api:'https://jiku.vip/mogai_api.php/v1.vod'
+    // },
+    // juzi : {
+    //     name: '橘子',
+    //     api:'http://jz.juzidy.vip/mogai_api.php/v1.vod'
+    // },
+    // qifeizx : {
+    //     name: '奇飞专线',
+    //     api:'http://mkk.gotka.top/api.php/v1.vod'
+    // },
     tkyinshi : {
         name: '天空影视',
         api:'https://tkys.tv/xgapp.php/v1/'
     },
-    duanyou2ys :{
-        name: '段友2影视',
-        api:'https://shangjihuoke.com/api.php/tv.vod'
-    },
-    nuanguangys : {
-        name: '暖光影视',
-        api:'https://app.bl210.com/api.php/v1.vod'
-    },
-    tianchengyingshi : {
-        name: '天诚影视',
-        api:'http://tcspvip.cn/api.php/v1.vod'
-    },
-    aiteys : {
-        name: '艾特影视',
-        api:'https://www.aitee.cc/api.php/v1.vod'
-    },
-    duanyouys1 :{
-        name: '段友影视1',
-        api:'http://js.66app.me/api.php/app/'
-    },
-    bilinys :{
-        name: '比邻影视',
-        api:'http://0hzy.cn:9990/mogai_api.php/v1.vod'
-    },
-    zuijudaren : {
-        name: '追剧达人',
-        api:'https://www.zhuijudaren.com/mogai_api.php/v1.vod'
-    },
-    yuanxiang69 : {
-        name: '69院线',
-        api:'http://app.269w.com/api.php/v1.vod'
-    },
-    chanyi :{
-        name: '创艺',
-        api:'http://www.30dian.cn/api.php/v1.vod'
-    }
+    // duanyou2ys :{
+    //     name: '段友2影视',
+    //     api:'https://shangjihuoke.com/api.php/tv.vod'
+    // },
+    // nuanguangys : {
+    //     name: '暖光影视',
+    //     api:'https://app.bl210.com/api.php/v1.vod'
+    // },
+    // tianchengyingshi : {
+    //     name: '天诚影视',
+    //     api:'http://tcspvip.cn/api.php/v1.vod'
+    // },
+    // aiteys : {
+    //     name: '艾特影视',
+    //     api:'https://www.aitee.cc/api.php/v1.vod'
+    // },
+    // duanyouys1 :{
+    //     name: '段友影视1',
+    //     api:'http://js.66app.me/api.php/app/'
+    // },
+    // bilinys :{
+    //     name: '比邻影视',
+    //     api:'http://0hzy.cn:9990/mogai_api.php/v1.vod'
+    // },
+    // zuijudaren : {
+    //     name: '追剧达人',
+    //     api:'https://www.zhuijudaren.com/mogai_api.php/v1.vod'
+    // },
+    // yuanxiang69 : {
+    //     name: '69院线',
+    //     api:'http://app.269w.com/api.php/v1.vod'
+    // },
+    // chanyi :{
+    //     name: '创艺',
+    //     api:'http://www.30dian.cn/api.php/v1.vod'
+    // },
+    umao : { name : 'U猫资源',api:'http://umao.ml/api.php/provide/vod/at/xml',},
+    xiongmao: { name : '熊猫视频',api:'https://www.xiongmaosp.com/api.php/provide/vod/at/xml',},
+    baipiao: { name : '白嫖资源',api:'http://www.baipiaozy.com/api.php/provide/vod/at/xml',},
+    baipiaolm: { name : '白嫖联盟',api:'http://api.hszbj.net/api.php/provide/vod/at/xml',},
+    zy1717: { name : '1717资源',api:'http://zy.itono.cn/inc/api.php',},
+    zy8090: { name : '8090资源',api:'http://zy.yilans.net:8090/api.php/provide/vod',},
+    lmzy: { name : '蓝猫资源',api:'https://www.lmzy.cc/api.php/provide/vod',},
+    monguo: { name : '萌果资源',api:'http://api.appearoo.top/api.php/provide/vod',},
+    hhzy: { name : '好好资源',api:'http://haohaozy.com/api.php/provide/vod',},
+    moguzy: { name : '蘑菇资源',api:'http://www.moguzyw.com:520/moguzy.php/provide/vod',},
+    moguzy: { name : '明日资源',api:'http://zy.zcocc.com/api.php/provide/vod',},
+    sszy: { name : '速搜资源',api:'http://www.susouzy.com/api.php/provide/vod',},
+    tiantang: { name : '天堂资源',api:'http://vipmv.cc/api.php/provide/vod',},
+    qilinzy: { name : '麒麟资源',api:'http://www.qilinzyz.com/api.php/provide/vod',},
+    zymu38tv: { name : 'M3U8.TV资源',api:'http://www.zycaiji.net:7788/api.php/provide/vod',},
+    zy360: { name : '360资源',api:'http://xa88.vip:88/api.php/provide/vod',},
+    zuixinzy: { name : '最新资源',api:'https://api.yunboys.cn/api.php/provide/vod',},
+    slzy: { name : '三零资源',api:'http://api.000zy.com/provide/vod',},
+    baiduzy: { name : '百度官方资源',api:'https://api.bdjx.vip/api.php/provide/vod',},
+    yzzybplm: { name : '优质资源白嫖联盟',api:'http://api.hszbj.net/api.php/provide/vod',},
+    bpzy: { name : '白嫖资源',api:'http://www.baipiaozy.com/api.php/provide/vod',},
+    xionmaosp: { name : '熊猫视频',api:'https://www.xiongmaosp.com/api.php/provide/vod',},
+    aikan: { name : '爱看',api:'http://tvcms.ikan6.vip/api.php/provide/vod',},
+    umm3u8: { name : 'U猫m3u8',api:'http://umao.ml/api.php/provide/vod',},
+    moyu: { name : '墨鱼影视',api:'http://www.moyuyingshi.com/api.php/provide/vod',},
+    zaikang: { name : '宅看影视',api:'http://zhaikanys.xyz/api.php/provide/vod',},
+    changshiys: { name : '畅视影视',api:'http://app.reboju.net/api.php/provide/vod',},
+    beidouxing: { name : '北斗星资源',api:'https://api.bdxzyapi.com/api.php/provide/vod/at/xml',},
+    zy1886: { name : '1886资源',api:'http://cj.1886zy.co/inc/seacmsapi.php',},
+    zy605: { name : '605资源',api:'http://www.605zy.co/inc/api.php',},
+    bjzy: { name : '八戒资源',api:'http://cj.bajiecaiji.com/inc/seacmsapi.php',},
+    qwyinshi: { name : '全网影视',api:'https://www.qwysvip.com/api.php/provide/vod/at/xml',},
+    sfjhybapp: { name : '三方聚合云播APP',api:'http://bxin.tv/api.php/provide/vod',},
+    lgapp: { name : '蓝果APP',api:'http://www.languotv.com/api.php/provide/vod',},
+    ayzjapp: { name : '阿姨追剧APP',api:'http://app.yiciyuan.me/api.php/provide/vod',}
     // testSource: {
     //     api: 'https://www.example.com/api.php/provide/vod',
     //     name: '空内容测试源',
